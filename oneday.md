@@ -1,12 +1,12 @@
-php学习笔记
-Php的四对标记
-1、<?php ?>  标准
-2、<script language=”php”></script>
-3、<?  ?>   <?=$str ?>  需要在配置文件开启:short_open_tag=On;
-4、<%  %>   asp风格，也是兼容的，需要修改配置文件：asp_tags=On;
-为什么不用段标记？
-从PHP7开始，这种写法<script language="php"></script>，已经不支持了
-无论在任何时候这种<? ?> <?=?> <%=%>短标签的形式都不推荐使用，兼容性太差了，以后应该也会被废弃，也会和xml代码发生冲突
+# php学习笔记
+## Php的四对标记
+- 1、<?php ?>  标准
+- 2、<script language=”php”></script>
+- 3、<?  ?>   <?=$str ?>  需要在配置文件开启:short_open_tag=On;
+- 4、<%  %>   asp风格，也是兼容的，需要修改配置文件：asp_tags=On;
+# 为什么不用段标记？
+- 从PHP7开始，这种写法<script language="php"></script>，已经不支持了
+- 无论在任何时候这种<? ?> <?=?> <%=%>短标签的形式都不推荐使用，兼容性太差了，以后应该也会被废弃，也会和xml代码发生冲突
 
 php文件中为什么有的php有结束符“?> ”，有的没有结束符“?> ”？
 
