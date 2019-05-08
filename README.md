@@ -100,14 +100,14 @@ echo $c;
 			举例 $str=(string)$int;  
 			在赋值时给新变量一个新类型，原变量不变  
 			Intval(),floatval(),strval();  
-![强制转换](README_files/1.jpg)
+![强制转换](preg_files/1.jpg)
 	一种自动转换  
-![自动转换](README_files/2.jpg)  
+![自动转换](preg_files/2.jpg)  
 字符串强制转换为int类型  
 举例：  
 $a=”hello”;  
 $b=(int)$a;不是以数字开头的会转换为0；只有当开头有数字才会转化为开头的数字  
-![变量类型测试函数](README_files/3.jpg)  
+![变量类型测试函数](preg_files/3.jpg)  
 ### 常量的声明和使用：  
 									    常量声明的时候就赋值，否则就赋不上值  
 ·	常量的声明用函数define()；举例：define(“ROOT”,100);  
